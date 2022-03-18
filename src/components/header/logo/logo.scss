@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: large;
+
+  img {
+    margin-right: 7px;
+  }
+  p {
+    display: none;
+  }
+}
+
+@media (min-width: 520px) {
+  .logo p {
+    display: block;
+  }
+}

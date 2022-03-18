@@ -1,0 +1,29 @@
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .search-icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 20px;
+    color: darkslategray;
+  }
+
+  input {
+    all: unset;
+    background-color: white;
+    padding: 7px 15px 7px 35px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 520px) {
+  .search,
+  input {
+    width: 100%;
+  }
+}
